@@ -114,10 +114,9 @@ Run the toolkit:
 
 ![Service Status](screenshots/service_stat.png)
 
-## Security Checks
+## Security Check
+![Security Check](screenshots/security_check.png)
 
-![Security Check](screenshots/security_check1.png)
-![Security Check](screenshots/security_check2.png)
 ---
 
 # Project Goals
