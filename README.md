@@ -19,7 +19,9 @@ A professional Bash-based Linux administration and networking toolkit designed f
 - Interactive terminal menu
 - Colored terminal output
 - Log generation support
-
+- Service Monitoring
+- NGINX Port Check
+- SSH Port Check
 ---
 
 # Technologies Used
@@ -118,6 +120,14 @@ Run the toolkit:
 ![Security Check](screenshots/security_check.png)
 
 ---
+
+# Security Benefits
+
+- Detects active network services
+- Verifies server accessibility
+- Helps identify exposed ports
+- Assists in security monitoring
+- Useful for Linux administration and troubleshooting
 
 # Project Goals
 

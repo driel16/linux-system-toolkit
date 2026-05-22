@@ -33,3 +33,12 @@ else
     echo -e "${RED}SSH is NOT running${NC}"
 fi
 
+echo ""
+echo -e "${YELLOW}NGINX Port Check:${NC}"
+
+ss -tulnp | grep :80
+
+echo ""
+echo -e "${BLUE}SSH Port Check:${NC}"
+
+ss -tulnp | grep :22
