@@ -19,6 +19,10 @@ A professional Bash-based Linux administration and networking toolkit designed f
 - Interactive terminal menu
 - Colored terminal output
 - Log generation support
+- Port Scanning
+- Host discovery
+- Security auditing
+- Log analysis and monitoring
 - Service Monitoring
 - NGINX Port Check
 - SSH Port Check
@@ -29,6 +33,7 @@ A professional Bash-based Linux administration and networking toolkit designed f
 - Bash Scripting
 - Linux
 - Networking Tools
+- Nmap
 - Systemd
 - Git & GitHub
 
@@ -43,7 +48,10 @@ linux-system-toolkit/
 │   ├── system_info.sh
 │   ├── network_info.sh
 │   ├── service_check.sh
-│   └── security_check.sh
+│   ├── security_check.sh
+│   ├── log_monitor.sh
+│   └── network_scan.sh
+├── screenshots/
 ├── logs/
 └── README.md
 ```
@@ -120,6 +128,18 @@ Run the toolkit:
 ![Security Check](screenshots/security_check.png)
 
 ----------
+# Service Monitoring
+
+## NGINX Port Check
+
+![NGINX Port Check](screenshots/nginx_port_check.png)
+
+---
+
+## SSH Port Check
+![SSH Port Check](screenshots/ssh_port_check.png)
+
+-------
 
 # Log Analysis & Security Monitoring
 
@@ -147,6 +167,38 @@ Run the toolkit:
 
 ---
 
+# Network Scanning & Security Auditing
+
+## Port Scanning
+
+![Port Scan](screenshots/port_scan.png)
+
+---
+
+## Open Port Detection
+
+![Open Ports](screenshots/open_ports.png)
+
+---
+
+## Service Detection
+
+![Service Detection](screenshots/service_detection.png)
+
+---
+
+## Host Discovery
+
+![Host Discovery](screenshots/host_discovery.png)
+
+---
+
+## Network Scanner Script
+
+![Network Scan Script](screenshots/network_scan_script.png)
+
+---
+
 # Security Monitoring Features
 
 - SSH activity monitoring
@@ -156,6 +208,18 @@ Run the toolkit:
 - Linux security auditing
 - Troubleshooting workflows
 
+# Security Auditing Features
+
+- Port scanning
+- Open service detection
+- Host discovery
+- Network reconnaissance
+- Service version detection
+- Linux security auditing
+- Network troubleshooting
+
+---
+
 # Security Benefits
 
 - Detects active network services
@@ -163,6 +227,8 @@ Run the toolkit:
 - Helps identify exposed ports
 - Assists in security monitoring
 - Useful for Linux administration and troubleshooting
+
+---
 
 # Project Goals
 
