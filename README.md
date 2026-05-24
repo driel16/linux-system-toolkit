@@ -119,7 +119,42 @@ Run the toolkit:
 ## Security Check
 ![Security Check](screenshots/security_check.png)
 
+----------
+
+# Log Analysis & Security Monitoring
+
+## SSH Logs
+
+![SSH Logs](screenshots/ssh_logs.png)
+
 ---
+
+## Authentication Logs
+
+![Auth Logs](screenshots/auth_logs.png)
+
+---
+
+## Failed Login Detection
+
+![Failed Login Detection](screenshots/failed_login_detection.png)
+
+---
+
+## Log Monitoring Script
+
+![Log Monitor Script](screenshots/log_monitor_script.png)
+
+---
+
+# Security Monitoring Features
+
+- SSH activity monitoring
+- Authentication log analysis
+- Failed login detection
+- Real-time log monitoring
+- Linux security auditing
+- Troubleshooting workflows
 
 # Security Benefits
 
