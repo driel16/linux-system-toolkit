@@ -204,6 +204,30 @@ Run the toolkit:
 
 -------
 
+## Backup Automation
+
+![Backup Script](screenshots/backup_script.png)
+
+---
+
+## Restore Testing
+
+![Restore Script](screenshots/restore_script.png)
+
+---
+
+# Disaster Recovery Features
+
+- Automated backups
+- Restore testing
+- Compressed archives
+- Scheduled backups
+- Recovery workflows
+- Backup automation
+- Linux administration
+- Disaster recovery planning
+- Infrastructure protection
+
 # Traffic Monitoring Features
 
 - Packet capture
