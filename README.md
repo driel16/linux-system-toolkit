@@ -198,6 +198,20 @@ Run the toolkit:
 ![Network Scan Script](screenshots/network_scan_script.png)
 
 ---
+## Packet Monitor Script
+
+![Packet Monitor Script](screenshots/packet_monitor_script.png)
+
+-------
+
+# Traffic Monitoring Features
+
+- Packet capture
+- Traffic monitoring
+- Protocol inspection
+- Network troubleshooting
+- Packet analysis
+- Cybersecurity monitoring
 
 # Security Monitoring Features
 
