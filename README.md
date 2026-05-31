@@ -231,7 +231,45 @@ Run the toolkit:
 
 ![Memory Monitoring](screenshots/memory_processes.png)
 
+-------
+# Log Management
+
+## Log Manager Script
+
+![Log Manager](screenshots/log_manager.png)
+
 ------------------------------------------------------
+
+# System Health Dashboard
+
+## Health Dashboard
+
+![Health Dashboard](screenshots/health_dashboard1.png)
+![Health Dashboard](screenshots/health_dashboard2.png)
+
+------------------------------------------------------
+
+# Log Management Features
+
+- Log monitoring
+- Log analysis
+- Log archiving
+- Compressed log backups
+- Log storage management
+- System auditing
+- Troubleshooting support
+
+# System Health Dashboard Features
+
+- CPU monitoring
+- Memory monitoring
+- Disk monitoring
+- Firewall status monitoring
+- Network information reporting
+- System health reporting
+- Process monitoring
+- Infrastructure monitoring
+- Linux administration support
 
 # Resource Auditing Features
 
