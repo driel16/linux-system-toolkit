@@ -216,6 +216,34 @@ Run the toolkit:
 
 ---
 
+# System Resource Monitoring
+
+## Resource Monitoring Script
+
+![Resource Monitor Script](screenshots/resource_monitor.png)
+
+---
+## Top CPU Processes
+
+![CPU Monitoring](screenshots/cpu_processes.png)
+---
+## Top Memory Processes
+
+![Memory Monitoring](screenshots/memory_processes.png)
+
+------------------------------------------------------
+
+# Resource Auditing Features
+
+- CPU utilization monitoring
+- Memory usage analysis
+- Disk space monitoring
+- Process monitoring
+- System load analysis
+- Performance auditing
+- Resource utilization reporting
+- Linux system administration
+- Infrastructure monitoring
 # Disaster Recovery Features
 
 - Automated backups
