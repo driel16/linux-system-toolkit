@@ -341,3 +341,836 @@ driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:17 /usr/lib/syst
 root        7230  0.0  0.2  14960 10528 ?        Ss   May30   0:00 sshd: driel_feby [priv]
 root        7331  0.0  0.2  14964 10400 ?        Ss   May30   0:00 sshd: driel_feby [priv]
 root       22155  0.0  0.2  14964 10396 ?        Ss   00:48   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 22:30:02 up 1 day, 16:51,  4 users,  load average: 0.00, 0.00, 0.00
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       819Mi       2.8Gi       4.0Mi       158Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  174G   64G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  954G   1% /
+none            1.9G  496K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  174G   64G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   42630  900  0.1   8332  4224 ?        R    22:30   0:00 ps aux --sort=-%cpu
+driel_f+   42626 30.0  0.0   4752  3200 ?        S    22:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+root       42624 17.0  0.0   6956  3852 ?        S    22:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   42625  3.1  0.0   2800  1536 ?        Ss   22:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  40:41 /usr/sbin/mysqld
+root          77  1.1  0.4  66828 19016 ?        S<s  May30  27:11 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22240 12744 ?        Ss   May30   4:11 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May30   2:11 ssh localhost
+driel_f+    7229  0.1  0.2  12016  8192 pts/0    S+   May30   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  40:41 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.1  0.4  66828 19016 ?        S<s  May30  27:11 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:21 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22240 12744 ?        Ss   May30   4:11 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:17 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May30   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May30   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   00:48   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 23:00:02 up 1 day, 17:20,  4 users,  load average: 0.00, 0.00, 0.00
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       821Mi       2.8Gi       4.0Mi       167Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  174G   64G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  496K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  174G   64G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   45118  500  0.1   8332  4224 ?        R    23:00   0:00 ps aux --sort=-%cpu
+root       45112 27.0  0.0   6956  3852 ?        S    23:00   0:00 /usr/sbin/CRON -f -P
+driel_f+   45114 17.6  0.0   4752  3200 ?        S    23:00   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+driel_f+   45113  9.5  0.0   2800  1536 ?        Ss   23:00   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  41:07 /usr/sbin/mysqld
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:12 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22240 12744 ?        Ss   May30   4:12 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May30   2:11 ssh localhost
+driel_f+    7229  0.1  0.2  12016  8192 pts/0    S+   May30   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  41:07 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:12 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:21 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22240 12744 ?        Ss   May30   4:12 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:17 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May30   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May30   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   00:49   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 10:30:02 up 1 day, 17:43,  4 users,  load average: 0.01, 0.03, 0.02
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       798Mi       2.8Gi       4.0Mi       159Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   63G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  504K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  560K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   63G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   45342  500  0.1   8332  4224 ?        R    10:30   0:00 ps aux --sort=-%cpu
+driel_f+   45338 56.7  0.0   4752  3328 ?        S    10:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+root       45336 39.2  0.0   6956  3852 ?        S    10:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   45337  9.0  0.0   2800  1536 ?        Ss   10:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  41:28 /usr/sbin/mysqld
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:13 /usr/lib/systemd/systemd-journald
+root       45273  0.3  0.3 1756620 14464 ?       Ssl  10:18   0:02 /usr/libexec/wsl-pro-service
+root           1  0.1  0.3  22240 12744 ?        Ss   May30   4:14 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May31   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  41:28 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:13 /usr/lib/systemd/systemd-journald
+root       45273  0.3  0.3 1756620 14464 ?       Ssl  10:18   0:02 /usr/libexec/wsl-pro-service
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:21 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22240 12744 ?        Ss   May30   4:14 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:17 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 11:30:02 up 1 day, 17:58,  4 users,  load average: 0.00, 0.10, 0.07
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       802Mi       2.9Gi       4.0Mi       148Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   64G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  516K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   64G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   45447  650  0.1   8332  4224 ?        R    11:30   0:00 ps aux --sort=-%cpu
+root       45441 40.5  0.0   6956  3852 ?        S    11:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   45443 32.5  0.0   4752  3328 ?        S    11:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+driel_f+   45442 19.6  0.0   2800  1536 ?        Ss   11:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  41:45 /usr/sbin/mysqld
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:15 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22240 12744 ?        Ss   May30   4:21 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May31   2:11 ssh localhost
+driel_f+    7229  0.1  0.2  12016  8192 pts/0    S+   May31   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  41:45 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:15 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:21 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22240 12744 ?        Ss   May30   4:21 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:17 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 12:00:01 up 1 day, 18:28,  4 users,  load average: 0.00, 0.02, 0.00
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       804Mi       2.8Gi       4.0Mi       173Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   64G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  516K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   64G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   45611  480  0.1   8332  4224 ?        R    12:00   0:00 ps aux --sort=-%cpu
+driel_f+   45601 32.4  0.0   4752  3328 ?        S    12:00   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+root       45598 22.0  0.0   6956  3852 ?        S    12:00   0:00 /usr/sbin/CRON -f -P
+driel_f+   45599  6.9  0.0   2800  1536 ?        Ss   12:00   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  42:19 /usr/sbin/mysqld
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:15 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:22 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May31   2:11 ssh localhost
+driel_f+    7229  0.1  0.2  12016  8192 pts/0    S+   May31   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  42:19 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:15 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:22 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:22 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:17 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 12:30:00 up 1 day, 18:48,  4 users,  load average: 0.22, 0.07, 0.02
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       798Mi       2.8Gi       4.0Mi       175Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   64G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  528K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   64G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   45754  450  0.1   8332  4224 ?        R    12:30   0:00 ps aux --sort=-%cpu
+driel_f+   45750 21.4  0.0   4752  3328 ?        S    12:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+root       45748 20.8  0.0   6956  3852 ?        S    12:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   45749  6.2  0.0   2800  1536 ?        Ss   12:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  42:43 /usr/sbin/mysqld
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:16 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:23 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May31   2:11 ssh localhost
+driel_f+    7229  0.1  0.2  12016  8192 pts/0    S+   May31   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  42:43 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:16 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:22 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:23 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:18 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 13:00:02 up 1 day, 19:19,  4 users,  load average: 0.00, 0.01, 0.00
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       844Mi       2.8Gi       4.0Mi       158Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   64G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  528K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   64G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   45945  337  0.1   8332  4224 ?        R    13:00   0:00 ps aux --sort=-%cpu
+root       45939 25.8  0.0   6956  3852 ?        S    13:00   0:00 /usr/sbin/CRON -f -P
+driel_f+   45941 21.2  0.0   4752  3328 ?        S    13:00   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+driel_f+   45940 12.5  0.0   2800  1536 ?        Ss   13:00   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  43:17 /usr/sbin/mysqld
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:16 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:23 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May31   2:11 ssh localhost
+root         132  0.1  0.1  25676  6656 ?        Ss   May30   2:49 /usr/lib/systemd/systemd-udevd
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  43:17 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.4  66828 19016 ?        S<s  May30  27:16 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:22 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:23 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:18 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 13:30:02 up 1 day, 19:51,  4 users,  load average: 0.10, 0.06, 0.02
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       841Mi       2.8Gi       4.0Mi       158Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   63G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  532K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   63G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   46104  475  0.1   8332  4224 ?        R    13:30   0:00 ps aux --sort=-%cpu
+driel_f+   46100 25.8  0.0   4752  3328 ?        S    13:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+driel_f+   46105 25.0  0.0   3136  1536 ?        S    13:30   0:00 head
+root       46098 23.2  0.0   6956  3852 ?        S    13:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   46099  8.5  0.0   2800  1536 ?        Ss   13:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  43:53 /usr/sbin/mysqld
+root          77  1.0  0.4  66828 18768 ?        S<s  May30  27:18 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:24 /sbin/init
+root         132  0.1  0.1  25676  6656 ?        Ss   May30   2:50 /usr/lib/systemd/systemd-udevd
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  43:53 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.4  66828 18768 ?        S<s  May30  27:18 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:22 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:24 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:18 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 14:00:01 up 1 day, 20:22,  4 users,  load average: 0.03, 0.03, 0.00
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       838Mi       2.8Gi       4.0Mi       171Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   63G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  532K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   63G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   46273  433  0.1   8332  4224 ?        R    14:00   0:00 ps aux --sort=-%cpu
+root       46267 33.3  0.0   6956  3724 ?        S    14:00   0:00 /usr/sbin/CRON -f -P
+driel_f+   46269 25.0  0.0   4752  3328 ?        S    14:00   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+driel_f+   46268  8.3  0.0   2800  1536 ?        Ss   14:00   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  44:26 /usr/sbin/mysqld
+root          77  1.0  0.3  66828 15308 ?        S<s  May30  27:19 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:25 /sbin/init
+root         132  0.1  0.1  25676  6656 ?        Ss   May30   2:52 /usr/lib/systemd/systemd-udevd
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May31   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  44:26 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.3  66828 15308 ?        S<s  May30  27:19 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:22 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:25 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:18 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 14:30:01 up 1 day, 20:54,  4 users,  load average: 0.00, 0.01, 0.00
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       841Mi       2.8Gi       4.0Mi       155Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   64G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  532K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   64G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   46454  500  0.1   8332  4224 ?        R    14:30   0:00 ps aux --sort=-%cpu
+driel_f+   46450 26.8  0.0   4752  3200 ?        S    14:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+root       46448 24.6  0.0   6956  3852 ?        S    14:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   46455 20.0  0.0   3136  1536 ?        S    14:30   0:00 head
+driel_f+   46449  8.6  0.0   2800  1536 ?        Ss   14:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  44:59 /usr/sbin/mysqld
+root          77  1.0  0.3  66828 15300 ?        S<s  May30  27:20 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:26 /sbin/init
+root         132  0.1  0.1  25676  6656 ?        Ss   May30   2:53 /usr/lib/systemd/systemd-udevd
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  44:59 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.3  66828 15300 ?        S<s  May30  27:20 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:22 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:26 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:18 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 15:00:02 up 1 day, 21:25,  4 users,  load average: 0.04, 0.03, 0.00
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       842Mi       2.8Gi       4.0Mi       163Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   63G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  532K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   63G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   46624  422  0.1   8332  4224 ?        R    15:00   0:00 ps aux --sort=-%cpu
+driel_f+   46620 30.0  0.0   4752  3328 ?        S    15:00   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+root       46618 29.4  0.0   6956  3852 ?        S    15:00   0:00 /usr/sbin/CRON -f -P
+driel_f+   46619 16.0  0.0   2800  1536 ?        Ss   15:00   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+driel_f+   46625 14.2  0.0   3136  1536 ?        S    15:00   0:00 head
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  45:36 /usr/sbin/mysqld
+root          77  1.0  0.3  66828 15340 ?        S<s  May30  27:21 /usr/lib/systemd/systemd-journald
+root       46617  0.4  0.1  25680  4448 ?        S    14:59   0:00 (udev-worker)
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:27 /sbin/init
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  45:36 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.3  66828 15340 ?        S<s  May30  27:21 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:22 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:27 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:18 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 15:30:01 up 1 day, 21:57,  4 users,  load average: 0.04, 0.02, 0.00
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       842Mi       2.8Gi       4.0Mi       155Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  175G   63G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  532K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  175G   63G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   46799  425  0.1   8332  4096 ?        R    15:30   0:00 ps aux --sort=-%cpu
+driel_f+   46795 38.4  0.0   4752  3328 ?        S    15:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+root       46793 23.2  0.0   6956  3724 ?        S    15:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   46794  7.1  0.0   2800  1536 ?        Ss   15:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  46:08 /usr/sbin/mysqld
+root          77  0.9  0.3  66828 15468 ?        S<s  May30  27:22 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:28 /sbin/init
+root         132  0.1  0.1  25676  6656 ?        Ss   May30   2:56 /usr/lib/systemd/systemd-udevd
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   May31   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May30  46:08 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  0.9  0.3  66828 15468 ?        S<s  May30  27:22 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May30   0:23 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May30   4:28 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May30   0:18 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   May31   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 14:30:02 up 1 day, 22:22,  4 users,  load average: 0.00, 0.02, 0.04
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       804Mi       2.8Gi       4.0Mi       156Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  176G   62G  75% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  544K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  560K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  176G   62G  75% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   47092  560  0.1   8332  4224 ?        R    14:30   0:00 ps aux --sort=-%cpu
+root       47086 38.0  0.0   6956  3852 ?        S    14:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   47088 26.3  0.0   4752  3328 ?        S    14:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+driel_f+   47087 14.8  0.0   2800  1536 ?        Ss   14:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  46:34 /usr/sbin/mysqld
+root          77  0.9  0.3  66828 15124 ?        S<s  May31  27:33 /usr/lib/systemd/systemd-journald
+root       47014  0.3  0.3 1756620 13952 ?       Ssl  14:20   0:02 /usr/libexec/wsl-pro-service
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:37 /sbin/init
+root         132  0.1  0.1  25676  6656 ?        Ss   May31   3:04 /usr/lib/systemd/systemd-udevd
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  46:34 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  0.9  0.3  66828 15124 ?        S<s  May31  27:33 /usr/lib/systemd/systemd-journald
+root       47014  0.3  0.3 1756620 13952 ?       Ssl  14:20   0:02 /usr/libexec/wsl-pro-service
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May31   0:23 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:37 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May31   0:19 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 15:30:01 up 1 day, 22:34,  4 users,  load average: 0.27, 0.62, 0.50
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       806Mi       2.8Gi       4.0Mi       162Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  176G   62G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  552K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  176G   62G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   47244  400  0.1   8332  4224 ?        R    15:30   0:00 ps aux --sort=-%cpu
+root       47238 32.0  0.0   6956  3852 ?        S    15:30   0:00 /usr/sbin/CRON -f -P
+driel_f+   47240 24.0  0.0   4752  3200 ?        S    15:30   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+driel_f+   47239 16.1  0.0   2800  1536 ?        Ss   15:30   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  47:03 /usr/sbin/mysqld
+root          77  1.0  0.3  66828 15252 ?        S<s  May31  28:12 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:43 /sbin/init
+root         132  0.1  0.1  25676  6656 ?        Ss   May31   3:07 /usr/lib/systemd/systemd-udevd
+driel_f+    7330  0.0  0.2  12016  8064 pts/2    S+   Jun01   2:11 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  47:03 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.3  66828 15252 ?        S<s  May31  28:12 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May31   0:24 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:43 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May31   0:19 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 16:00:01 up 1 day, 22:55,  4 users,  load average: 0.24, 0.15, 0.19
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       799Mi       2.8Gi       4.0Mi       171Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  176G   63G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  560K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  176G   63G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   47465  433  0.1   8332  4224 ?        R    16:00   0:00 ps aux --sort=-%cpu
+root       47459 23.6  0.0   6956  3852 ?        S    16:00   0:00 /usr/sbin/CRON -f -P
+driel_f+   47461 16.6  0.0   4752  3328 ?        S    16:00   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+driel_f+   47460  4.7  0.0   2800  1536 ?        Ss   16:00   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  47:24 /usr/sbin/mysqld
+root          77  1.0  0.3  66828 15424 ?        S<s  May31  28:13 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:43 /sbin/init
+root         132  0.1  0.1  25676  6656 ?        Ss   May31   3:11 /usr/lib/systemd/systemd-udevd
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   Jun01   2:22 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  47:24 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  1.0  0.3  66828 15424 ?        S<s  May31  28:13 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May31   0:24 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:43 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May31   0:19 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 16:29:59 up 1 day, 23:28,  4 users,  load average: 0.07, 0.05, 0.04
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       819Mi       2.8Gi       4.0Mi       163Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  176G   63G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  560K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  176G   63G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   47793  200  0.1   8332  4224 ?        R    16:29   0:00 ps aux --sort=-%cpu
+driel_f+   47788 16.6  0.0   4752  3328 ?        S    16:29   0:00 /bin/bash /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh
+root       47786 15.3  0.0   6956  3852 ?        S    16:29   0:00 /usr/sbin/CRON -f -P
+driel_f+   47787 13.3  0.0   2800  1536 ?        Ss   16:29   0:00 /bin/sh -c /home/driel_feby/linux-system-toolkit/scripts/resource_monitor.sh >> /home/driel_feby/linux-system-toolkit/logs/resource.log
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  47:58 /usr/sbin/mysqld
+root          77  0.9  0.4  66828 19008 ?        S<sl May31  28:14 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:44 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   Jun01   2:34 ssh localhost
+driel_f+    7229  0.1  0.2  12016  8192 pts/0    S+   Jun01   2:34 ssh localhost
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  47:58 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  0.9  0.4  66828 19008 ?        S<sl May31  28:14 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May31   0:24 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:44 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May31   0:19 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+[0;34m===== SYSTEM RESOURCE MONITOR =====[0m
+[0;32mCPU & LOAD:[0m
+ 16:30:01 up 1 day, 23:28,  4 users,  load average: 0.07, 0.05, 0.04
+
+[0;32mMEMORY USAGE:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       819Mi       2.8Gi       4.0Mi       173Mi       2.9Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[0;32mDISK USAGE:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  176G   63G  74% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  953G   1% /
+none            1.9G  560K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  556K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  176G   63G  74% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+[0;32mTOP CPU PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+driel_f+   47804  100  0.1   8332  4224 ?        R    16:30   0:00 ps aux --sort=-%cpu
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  47:58 /usr/sbin/mysqld
+root          77  0.9  0.4  66828 18892 ?        S<s  May31  28:14 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:44 /sbin/init
+driel_f+    7330  0.1  0.2  12016  8064 pts/2    S+   Jun01   2:34 ssh localhost
+driel_f+    7229  0.1  0.2  12016  8192 pts/0    S+   Jun01   2:34 ssh localhost
+root         132  0.1  0.1  25676  6656 ?        Ss   May31   3:12 /usr/lib/systemd/systemd-udevd
+driel_f+   22154  0.0  0.2  12016  8192 pts/3    S+   Jun01   1:36 ssh localhost
+driel_f+    7270  0.0  0.1  15092  6972 ?        S    Jun01   1:54 sshd: driel_feby@pts/2
+
+[0;32mTOP MEMORY PROCESSES:[0m
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        415  1.6 10.0 2377420 391912 ?      Ssl  May31  47:58 /usr/sbin/mysqld
+root         320  0.0  0.5 107008 22144 ?        Ssl  May31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          77  0.9  0.4  66828 18892 ?        S<s  May31  28:14 /usr/lib/systemd/systemd-journald
+systemd+     186  0.0  0.3  21460 12800 ?        Ss   May31   0:24 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  22128 12744 ?        Ss   May31   4:44 /sbin/init
+driel_f+     536  0.0  0.2  20108 10752 ?        Ss   May31   0:19 /usr/lib/systemd/systemd --user
+root        7230  0.0  0.2  14960 10528 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root        7331  0.0  0.2  14964 10400 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]
+root       22155  0.0  0.2  14964 10396 ?        Ss   Jun01   0:00 sshd: driel_feby [priv]

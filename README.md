@@ -1,47 +1,121 @@
 # Linux System Toolkit
 
-A professional Bash-based Linux administration and networking toolkit designed for system monitoring, service management, security auditing, and troubleshooting.
+A professional Bash-based Linux administration, networking, security auditing, and system monitoring toolkit designed to automate common system administration tasks. This project demonstrates practical Linux administration, Bash scripting, networking, security monitoring, log management, backup automation, and infrastructure monitoring skills.
 
 ---
 
-# Features
+# Project Overview
 
-- System information monitoring
-- Memory and disk usage analysis
-- Network diagnostics
-- Open port detection
-- Internet connectivity testing
-- NGINX service monitoring
-- SSH service checks
-- Firewall status monitoring
-- Failed login detection
-- World-writable file detection
-- Interactive terminal menu
-- Colored terminal output
-- Log generation support
-- Port Scanning
-- Host discovery
-- Security auditing
-- Log analysis and monitoring
-- Service Monitoring
-- NGINX Port Check
-- SSH Port Check
+The Linux System Toolkit is a collection of Bash scripts that provide administrators with tools for monitoring system health, analyzing network configurations, auditing security settings, managing services, generating system reports, and performing backup and recovery operations.
+
+The project was developed as a hands-on learning experience to strengthen Linux administration, networking, automation, and cybersecurity skills through real-world system management tasks.
+
+---
+
+# Key Features
+
+### System Administration
+
+* System information monitoring
+* Memory and disk usage analysis
+* Process monitoring
+* Resource auditing
+* System health scoring
+* Automated system reporting
+
+### Networking
+
+* Network diagnostics
+* IP address discovery
+* Internet connectivity testing
+* Open port detection
+* SSH port verification
+* NGINX port verification
+* Nmap host discovery
+* Nmap port scanning
+* Packet capture and traffic monitoring
+
+### Security Monitoring
+
+* Authentication log analysis
+* Failed login detection
+* SSH activity monitoring
+* Security auditing
+* World-writable file detection
+* Firewall status monitoring
+* Service security checks
+
+### Service Management
+
+* NGINX service monitoring
+* SSH service monitoring
+* Running service verification
+* Service status reporting
+
+### Log Management
+
+* Log monitoring
+* Log analysis
+* Log archiving
+* Log storage management
+* Security log review
+
+### Backup & Recovery
+
+* Automated backups
+* Restore testing
+* Compressed backup archives
+* Disaster recovery preparation
+* Backup validation
+
+### Reporting & Automation
+
+* System report generation
+* Resource monitoring reports
+* Health score calculation
+* Cron job automation
+* Infrastructure reporting
+
 ---
 
 # Technologies Used
 
-- Bash Scripting
-- Linux
-- Networking Tools
-- Nmap
-- Systemd
-- Git & GitHub
+* Bash Scripting
+* Linux (Ubuntu)
+* Git & GitHub
+* Nmap
+* tcpdump
+* OpenSSH
+* NGINX
+* UFW Firewall
+* Cron Scheduler
+* Linux System Utilities
+
+---
+
+# Project Architecture
+
+```text
+Linux System Toolkit
+│
+├── System Information
+├── Network Information
+├── Service Monitoring
+├── Security Auditing
+├── Resource Monitoring
+├── Log Management
+├── Backup & Recovery
+├── Health Dashboard
+├── Health Score Calculator
+├── Report Generator
+└── Network Scanning
+```
 
 ---
 
 # Project Structure
 
-```bash
+```text
 linux-system-toolkit/
 ├── toolkit.sh
 ├── scripts/
@@ -49,10 +123,16 @@ linux-system-toolkit/
 │   ├── network_info.sh
 │   ├── service_check.sh
 │   ├── security_check.sh
-│   ├── log_monitor.sh
-│   └── network_scan.sh
-├── screenshots/
+│   ├── resource_monitor.sh
+│   ├── log_manager.sh
+│   ├── backup.sh
+│   ├── restore.sh
+│   ├── generate_report.sh
+│   ├── health_score.sh
+│   └── health_dashboard.sh
 ├── logs/
+├── reports/
+├── screenshots/
 └── README.md
 ```
 
@@ -63,16 +143,16 @@ linux-system-toolkit/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/linux-system-toolkit.git
+git clone https://github.com/driel16/linux-system-toolkit.git
 ```
 
-Go into project directory:
+Navigate to the project directory:
 
 ```bash
 cd linux-system-toolkit
 ```
 
-Make scripts executable:
+Make all scripts executable:
 
 ```bash
 chmod +x toolkit.sh
@@ -87,279 +167,151 @@ Run the toolkit:
 
 ---
 
-# Usage Example
-
-## Main Menu
-
-```text
-==============================
- Linux System Toolkit
-==============================
-
-1. System Information
-2. Network Information
-3. Service Status
-4. Security Checks
-5. Exit
-```
-
----
-
 # Screenshots
 
 ## Main Menu
 
 ![Main Menu](screenshots/menu.png)
 
+---
+
 ## System Information
 
 ![System Information](screenshots/system_info.png)
 
+---
+
 ## Network Information
 
 ![Network Information](screenshots/network_info1.png)
+
 ![Network Information](screenshots/network_info2.png)
 
-## Service Status
+---
 
-![Service Status](screenshots/service_stat.png)
+## Service Monitoring
 
-## Security Check
-![Security Check](screenshots/security_check.png)
-
-----------
-# Service Monitoring
-
-## NGINX Port Check
-
-![NGINX Port Check](screenshots/nginx_port_check.png)
+![Service Monitoring](screenshots/service_stat.png)
 
 ---
 
-## SSH Port Check
-![SSH Port Check](screenshots/ssh_port_check.png)
+## Security Monitoring
 
--------
-
-# Log Analysis & Security Monitoring
-
-## SSH Logs
-
-![SSH Logs](screenshots/ssh_logs.png)
+![Security Monitoring](screenshots/security_check.png)
 
 ---
 
-## Authentication Logs
+## Resource Monitoring
 
-![Auth Logs](screenshots/auth_logs.png)
-
----
-
-## Failed Login Detection
-
-![Failed Login Detection](screenshots/failed_login_detection.png)
-
----
-
-## Log Monitoring Script
-
-![Log Monitor Script](screenshots/log_monitor_script.png)
-
----
-
-# Network Scanning & Security Auditing
-
-## Port Scanning
-
-![Port Scan](screenshots/port_scan.png)
-
----
-
-## Open Port Detection
-
-![Open Ports](screenshots/open_ports.png)
-
----
-
-## Service Detection
-
-![Service Detection](screenshots/service_detection.png)
-
----
-
-## Host Discovery
-
-![Host Discovery](screenshots/host_discovery.png)
-
----
-
-## Network Scanner Script
-
-![Network Scan Script](screenshots/network_scan_script.png)
-
----
-## Packet Monitor Script
-
-![Packet Monitor Script](screenshots/packet_monitor_script.png)
-
--------
-
-## Backup Automation
-
-![Backup Script](screenshots/backup_script.png)
-
----
-
-## Restore Testing
-
-![Restore Script](screenshots/restore_script.png)
-
----
-
-# System Resource Monitoring
-
-## Resource Monitoring Script
-
-![Resource Monitor Script](screenshots/resource_monitor.png)
-
----
-## Top CPU Processes
+![Resource Monitoring](screenshots/resource_monitor.png)
 
 ![CPU Monitoring](screenshots/cpu_processes.png)
----
-## Top Memory Processes
 
 ![Memory Monitoring](screenshots/memory_processes.png)
 
--------
-# Log Management
+---
 
-## Log Manager Script
+## Log Management
 
-![Log Manager](screenshots/log_manager.png)
+![Log Monitoring](screenshots/log_monitoring.png)
 
-------------------------------------------------------
-
-# System Health Dashboard
-
-## Health Dashboard
-
-![Health Dashboard](screenshots/health_dashboard1.png)
-![Health Dashboard](screenshots/health_dashboard2.png)
-
-------------------------------------------------------
-
-# Log Management Features
-
-- Log monitoring
-- Log analysis
-- Log archiving
-- Compressed log backups
-- Log storage management
-- System auditing
-- Troubleshooting support
-
-# System Health Dashboard Features
-
-- CPU monitoring
-- Memory monitoring
-- Disk monitoring
-- Firewall status monitoring
-- Network information reporting
-- System health reporting
-- Process monitoring
-- Infrastructure monitoring
-- Linux administration support
-
-# Resource Auditing Features
-
-- CPU utilization monitoring
-- Memory usage analysis
-- Disk space monitoring
-- Process monitoring
-- System load analysis
-- Performance auditing
-- Resource utilization reporting
-- Linux system administration
-- Infrastructure monitoring
-# Disaster Recovery Features
-
-- Automated backups
-- Restore testing
-- Compressed archives
-- Scheduled backups
-- Recovery workflows
-- Backup automation
-- Linux administration
-- Disaster recovery planning
-- Infrastructure protection
-
-# Traffic Monitoring Features
-
-- Packet capture
-- Traffic monitoring
-- Protocol inspection
-- Network troubleshooting
-- Packet analysis
-- Cybersecurity monitoring
-
-# Security Monitoring Features
-
-- SSH activity monitoring
-- Authentication log analysis
-- Failed login detection
-- Real-time log monitoring
-- Linux security auditing
-- Troubleshooting workflows
-
-# Security Auditing Features
-
-- Port scanning
-- Open service detection
-- Host discovery
-- Network reconnaissance
-- Service version detection
-- Linux security auditing
-- Network troubleshooting
+![Log Archive](screenshots/log_archive.png)
 
 ---
 
-# Security Benefits
+## System Health Dashboard
 
-- Detects active network services
-- Verifies server accessibility
-- Helps identify exposed ports
-- Assists in security monitoring
-- Useful for Linux administration and troubleshooting
+![Health Dashboard](screenshots/health_dashboard.png)
+
+---
+
+## Health Score Calculator
+
+![Health Score](screenshots/health_score.png)
+
+---
+
+## System Report Generator
+
+![System Report](screenshots/generate_report.png)
+
+---
+
+# Skills Demonstrated
+
+### Linux Administration
+
+* Process management
+* User and permission management
+* Service administration
+* Log analysis
+* Backup and recovery
+
+### Networking
+
+* TCP/IP fundamentals
+* Network diagnostics
+* Port scanning
+* Service verification
+* Traffic monitoring
+
+### Cybersecurity
+
+* Security auditing
+* Authentication monitoring
+* Failed login detection
+* Firewall management
+* Security log analysis
+
+### Automation
+
+* Bash scripting
+* Cron scheduling
+* Automated reporting
+* Health monitoring
+* Backup automation
+
+### Version Control
+
+* Git
+* GitHub
+* Documentation management
 
 ---
 
 # Project Goals
 
-This project was built to improve practical skills in:
+This project was built to strengthen practical skills in:
 
-- Linux Administration
-- Bash Scripting
-- Networking
-- Service Monitoring
-- Security Auditing
-- Automation
-- DevOps Fundamentals
+* Linux Administration
+* Bash Scripting
+* Networking
+* Security Auditing
+* Infrastructure Monitoring
+* Automation
+* DevOps Fundamentals
+* System Troubleshooting
 
 ---
 
 # Future Improvements
 
-- Docker monitoring
-- Kubernetes checks
-- JSON report generation
-- Email alerts
-- Cron automation
-- Web dashboard
-- Log analysis system
+* Docker monitoring
+* Container health checks
+* Kubernetes integration
+* Grafana dashboards
+* Prometheus monitoring
+* Email alerting system
+* Web-based dashboard
+* Advanced log analysis
+* SIEM integration
 
 ---
 
 # Author
 
-Created by driel16
+Feby Driel Igbalic
+
+Bachelor of Science in Computer Science Major in Cyber Security
+
+GitHub: https://github.com/driel16

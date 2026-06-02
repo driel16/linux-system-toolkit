@@ -23,9 +23,22 @@ ss -tulnp
 echo ""
 echo "${YELLOW}Internet Connectivity Test:${NC}"
 
+if ! command -v nmap &> /dev/null
+then
+    echo "Nmap is not installed."
+    exit 1
+fi
+
+if ! command -v tcpdump &> /dev/null
+then
+    echo "tcpdump is not installed."
+    exit 1
+fi
+
 if ping -c 2 google.com > /dev/null
 then
     echo -e "${GREEN} Internet Connection is WORKING${NC}"
 else
     echo -e "${RED} Internet Connection FAILED${NC}"
+
 fi

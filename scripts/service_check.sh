@@ -15,7 +15,7 @@ echo "============================"
 echo ""
 echo "${YELLOW} Checking NGINX Service...${NC}"
 
-if systemctl is-active --quiet nginx
+if systemctl is-active --quiet ssh
 then
     echo -e "${GREEN}NGINX is running${NC}"
 else
